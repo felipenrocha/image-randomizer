@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        ÜBERSICHT
+    </title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<style>
+    body {
+
+        text-align: justify;
+        font-size: 18px;
+        background-size: cover;
+        color: black;
+        font-family: 'Courier New', 'Futura', 'Avenir';
+        margin: 0;
+        padding-top: 0;
+        width: 100%;
+
+    }
+
+    #image-catalog>div {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        margin: 5%;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <ul id="dropdown1" class="dropdown-content" style="width: 100%; text-align: right;">
+        <li style="width: 100%; text-align: right;"><a href="index.html"
+                style="color: black; width: 100%; text-align: right;">START</a></li>
+        <li><a href="ubersicht.html" style="color: black; width: 100%; text-align: right;">ÜBERSICHT</a></li>
+        <li><a href="impressum.html" style="color: black; width: 100%; text-align: right;">IMPRESSUM</a></li>
+    </ul>
+    <div class="navbar-fixed">
+        <nav style="background-color: white;">
+            <div class="nav-wrapper" style="z-index: 2; padding-left: 35%;">
+                <ul class="center hide-on-med-and-down">
+                    <li style="width: 15%;  text-align: center;"><a class="dropdown-trigger" href="#!"
+                            data-target="dropdown1"><i style="color: black" class="bi-list"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <h1>
+            ÜBERSICHT
+        </h1>
+        <div id="image-catalog"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/ubersicht.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+
+    text-align: center;
+    font-size: 18px;
+    background-size: cover;
+    color: black;
+    font-family: 'Courier New', 'Futura', 'Avenir';
+    margin: 0;
+    padding-top: 0;
+    width: 100%;
+}
+
+.image-box {
+    background: no-repeat center center fixed;
+    /* background-color: transparent; */
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+
+
+}
+
+.image-box:hover {
+    cursor: pointer;
+}
+
+.top-text {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    z-index: 0;
+    /* font-weight: 600; */
+
+}
+
+.stack-top{
+    z-index: 9;
+}
+.hole {
+    position: absolute;
+    top: 16.75%;
+    left: 20%;
+    width: 61%;
+    height: 65%;
+    box-shadow: 0 0 0 9999px rgb(255, 255, 255, .2);
+  }
+
+
+
+
+.marquee-top {
+
+    color: black;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+}
+
