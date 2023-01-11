@@ -18,6 +18,8 @@ body {
     width: 100%;
     margin: 0 auto;
     background-size: cover;
+    cursor: pointer;
+    z-index: 10;
 
 
 }
